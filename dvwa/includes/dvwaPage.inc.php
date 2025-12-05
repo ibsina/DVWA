@@ -178,7 +178,7 @@ function dvwaCurrentUser() {
 
 function &dvwaPageNewGrab() {
 	$returnArray = array(
-		'title'           => 'Damn Vulnerable Web Application (DVWA)',
+		'title'           => 'CBC - DVWA Demo website',
 		'title_separator' => ' :: ',
 		'body'            => '',
 		'page_id'         => '',
@@ -319,7 +319,7 @@ function dvwaHtmlEcho( $pPage ) {
 
 	$menuBlocks[ 'meta' ] = array();
 	if( dvwaIsLoggedIn() ) {
-		$menuBlocks[ 'meta' ][] = array( 'id' => 'security', 'name' => 'DVWA Security', 'url' => 'security.php' );
+		$menuBlocks[ 'meta' ][] = array( 'id' => 'security', 'name' => 'Security Level', 'url' => 'security.php' );
 		$menuBlocks[ 'meta' ][] = array( 'id' => 'phpinfo', 'name' => 'PHP Info', 'url' => 'phpinfo.php' );
 	}
 	$menuBlocks[ 'meta' ][] = array( 'id' => 'about', 'name' => 'About', 'url' => 'about.php' );
@@ -406,15 +406,13 @@ function dvwaHtmlEcho( $pPage ) {
 	<body class=\"home " . dvwaThemeGet() . "\">
 		<div id=\"container\">
 
-			<div id=\"header\">
+		<div id=\"header\">
 
-				<img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/logo.png\" alt=\"Damn Vulnerable Web Application\" />
+			<h1 style=\"color: white; margin: 0; padding: 20px 0; font-size: 72px;\">CBC - Demo for DVWA</h1>
                 <a href=\"#\" onclick=\"javascript:toggleTheme();\" class=\"theme-icon\" title=\"Toggle theme between light and dark.\">
-                    <img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/theme-light-dark.png\" alt=\"Damn Vulnerable Web Application\" />
+                    <img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/theme-light-dark.png\" alt=\"Toggle theme\" />
                 </a>
-			</div>
-
-			<div id=\"main_menu\">
+		</div>			<div id=\"main_menu\">
 
 				<div id=\"main_menu_padded\">
 				{$menuHtml}
@@ -430,23 +428,23 @@ function dvwaHtmlEcho( $pPage ) {
 
 			</div>
 
-			<div class=\"clear\">
-			</div>
+		<div class=\"clear\">
+		</div>
 
-			<div id=\"system_info\">
-				{$systemInfoHtml}
-			</div>
+		<div id=\"system_info\">
+			{$systemInfoHtml}
+		</div>
 
-			<div id=\"footer\">
+		<div id=\"footer\">
 
-				<p>Damn Vulnerable Web Application (DVWA)</p>
-				<script src='" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/js/add_event_listeners.js'></script>
-
-			</div>
+			<p>CBC - DVWA Demo website</p>
+			<script src='" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/js/add_event_listeners.js'></script>
 
 		</div>
 
-	</body>
+	</div>
+
+</body>
 
 </html>";
 }

@@ -9,16 +9,13 @@ networks:
 services:
   dvwa:
     build: .
-    image: ghcr.io/digininja/dvwa:latest
+    image: cbc-dvwa:latest
     # Change `always` to `build` to build from local source
-    pull_policy: always
+    pull_policy: build
     environment:
       - DB_SERVER=db
     depends_on:
       - db
-    # Uncomment the next 2 lines to serve local source
-    # volumes:
-    #   - ./:/var/www/html
     networks:
       - dvwa
     ports:

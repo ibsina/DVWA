@@ -8,7 +8,7 @@ body {
 }
 
 body.home {
-	background: #e7e7e7;
+	background: #dbeafe;
 }
 
 div.clear {
@@ -16,7 +16,7 @@ div.clear {
 }
 
 a {
-	color: #99cc33;
+	color: #2563eb;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -64,8 +64,8 @@ h3 {
 
 hr {
 	border-width: 0px;
-	color: #C3D9FF;
-	background-color: #C3D9FF;
+	color: #93c5fd;
+	background-color: #93c5fd;
 	height: 1px;
 }
 
@@ -127,7 +127,7 @@ div#container {
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background: #f4f4f4;
+	background: #eff6ff;
 	font-size: 13px;
 }
 
@@ -135,8 +135,8 @@ div#header {
 	position: relative;
 	padding: 10px;
 	overflow: hidden;
-	background: #2f2f2f;
-	border-bottom: 5px solid #A1CC33;
+	background: #1e3a8a;
+	border-bottom: 5px solid #3b82f6;
 	text-align: center;
 }
 
@@ -148,7 +148,7 @@ div#system_info {
 div#main_body {
 	float: right;
 	width: 693px;
-	background: #f4f4f4;
+	background: #eff6ff;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	font-size: 13px;
@@ -163,7 +163,7 @@ div#main_menu {
 	float: left;
 	width: 200px;
 	height: 100%;
-	background-color: #f4f4f4;
+	background-color: #eff6ff;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -189,8 +189,8 @@ div#main_menu li:hover {
 
 
 div#main_menu li.selected {
-	border-color: #758DAE #758DAE #758DAE #758DAE;
-	background-color: #99cc33;
+	border-color: #3b82f6 #3b82f6 #3b82f6 #3b82f6;
+	background-color: #3b82f6;
 }
 
 div#main_menu li.selected a {
@@ -211,10 +211,10 @@ div#main_menu_padded {
 
 div#footer {
 	color: #999999;
-	background: #2f2f2f;
+	background: #1e3a8a;
 	padding: 10px;
 	text-align: center;
-	border-top: 5px solid #A1CC33;
+	border-top: 5px solid #3b82f6;
 }
 
 .popup_button {
@@ -232,7 +232,7 @@ div#footer {
 
 .popup_button:hover {
 	color: white;
-    background-color: #A1CC33;
+    background-color: #3b82f6;
 }
 
 

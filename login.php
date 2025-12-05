@@ -66,7 +66,7 @@ echo "<!DOCTYPE html>
 
 		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
 
-		<title>Login :: Damn Vulnerable Web Application (DVWA)</title>
+		<title>Login :: CBC - DVWA Demo website</title>
 
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/css/login.css\" />
 
@@ -80,7 +80,7 @@ echo "<!DOCTYPE html>
 
 	<br />
 
-	<p><img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/login_logo.png\" /></p>
+	<h1 style=\"color: #1e3a8a; margin: 0; padding: 20px 0; font-size: 72px;\">CBC - Demo for DVWA</h1>
 
 	<br />
 
@@ -124,7 +124,7 @@ echo "<!DOCTYPE html>
 
 	<div id=\"footer\">
 
-	<p>" . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/', 'Damn Vulnerable Web Application (DVWA)' ) . "</p>
+	<p>" . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/', 'CBC - DVWA Demo website' ) . "</p>
 
 	</div> <!--<div id=\"footer\"> -->
 

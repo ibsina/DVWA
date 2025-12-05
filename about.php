@@ -12,13 +12,14 @@ $page[ 'page_id' ] = 'about';
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
 	<h2>About</h2>
-	<p>Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable. Its main goals are to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and aid teachers/students to teach/learn web application security in a class room environment</p>
+	<p>CBC - DVWA Demo website is a PHP/MySQL web application that is damn vulnerable. Its main goals are to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and aid teachers/students to teach/learn web application security in a class room environment</p>
+	<p>This is a customized version of DVWA (Damn Vulnerable Web Application).</p>
 	<p>Pre-August 2020, All material is copyright 2008-2015 RandomStorm & Ryan Dewhurst.</p>
 	<p>Ongoing, All material is copyright Robin Wood and probably Ryan Dewhurst.</p>
 
 	<h2>Links</h2>
 	<ul>
-		<li>Project Home: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA' ) . "</li>
+		<li>Original DVWA Project: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA' ) . "</li>
 		<li>Bug Tracker: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/issues' ) . "</li>
 		<li>Wiki: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/wiki' ) . "</li>
 	</ul>
@@ -40,13 +41,13 @@ $page[ 'body' ] .= "
 	</ul>
 
 	<h2>License</h2>
-	<p>Damn Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
+	<p>CBC - DVWA Demo website is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
 	(at your option) any later version.</p>
 
 	<h2>Development</h2>
-	<p>Everyone is welcome to contribute and help make DVWA as successful as it can be. All contributors can have their name and link (if they wish) placed in the credits section. To contribute pick an Issue from the Project Home to work on or submit a patch to the Issues list.</p>
+	<p>This is based on the original DVWA project. Everyone is welcome to contribute to the original DVWA project and help make it as successful as it can be.</p>
 </div>\n";
 
 dvwaHtmlEcho( $page );
